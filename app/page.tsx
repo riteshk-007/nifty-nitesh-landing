@@ -17,6 +17,7 @@ import StickyWhatsApp from '@/components/landing/StickyWhatsApp'
 import StickyBottomBar from '@/components/landing/StickyBottomBar'
 import PricingSection from '@/components/landing/PricingSection'
 import CertificatesSection from '@/components/landing/CertificatesSection'
+import YoutubeCardsSection from '@/components/landing/YoutubeCardsSection'
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
       <ProgramDetailsSection />
       <PricingSection />
       <VideoSection />
+      <YoutubeCardsSection />
       <AboutSection />
       <CertificatesSection />
       <TestimonialsSection />

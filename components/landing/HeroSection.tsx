@@ -89,7 +89,7 @@ export default function HeroSection() {
               <div className="fu2 inline-flex items-center gap-2 bg-[#c8922a]/10 border border-[#c8922a]/25 text-[#f0b429] px-3.5 py-1.5 rounded-full">
                 <span className="pdot w-1.5 h-1.5 rounded-full bg-green-400 flex-shrink-0" />
                 <IoTrendingUp size={13} />
-                <span className="text-[11px] font-bold uppercase tracking-widest">Stock Market Program · Batch 2025</span>
+                <span className="text-[11px] font-bold uppercase tracking-widest">Stock Market Education Program · Batch 2025</span>
               </div>
 
               {/* Headline */}

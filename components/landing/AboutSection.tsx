@@ -122,7 +122,7 @@ export default function AboutSection() {
               </div>
               <h3 className="bebas text-[24px] text-black tracking-wide mb-3">Our Mission & Framework</h3>
               <p className="text-[14px] text-gray-500 leading-relaxed m-0">
-                To teach Indian traders how to build a repeatable edge using real concepts — not signals or shortcuts. We simplify complex trading ideas into actionable systems like our unique <strong>Mahabharat Framework</strong> for trade scoring, making institutional price action accessible to everyday traders.
+                To teach Indian traders how to build a repeatable structured approach using real concepts — not signals or shortcuts. We simplify complex trading ideas into actionable systems like our unique <strong>Mahabharat Framework</strong> for trade scoring, making market structure and price behavior accessible to everyday traders.
               </p>
               <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-gradient-to-r from-[#c8922a] to-[#f0b429] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-b-2xl" />
             </div>
@@ -198,7 +198,7 @@ export default function AboutSection() {
             {/* Text */}
             <div className="anim-right flex flex-col gap-5" style={{ animationDelay: '0.1s' }}>
               <p className="text-[15px] text-gray-500 leading-relaxed m-0">
-                Nitesh has spent the last <strong className="text-black">6+ years</strong> studying how markets really move — beyond indicators and noise. He's known for breaking down smart money concepts, demand zones, and institutional footprints in a way that <strong className="text-black">new traders actually understand and apply</strong>.
+                Nitesh has spent the last <strong className="text-black">6+ years</strong> studying how markets really move — beyond indicators and noise. He's known for breaking down market structure concepts, demand-supply zones, and price behavior patterns in a way that <strong className="text-black">new traders actually understand and apply</strong>.
               </p>
               <p className="text-[15px] text-gray-500 leading-relaxed m-0">
                 From trading live markets to mentoring <strong className="text-black">500+ traders</strong>, his focus remains the same: helping people trade with process, logic, and discipline.

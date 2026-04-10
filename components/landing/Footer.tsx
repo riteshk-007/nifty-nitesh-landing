@@ -110,7 +110,7 @@ export default function Footer() {
           {/* ── Disclaimer ── */}
           <div className="border-t border-white/8 pt-6 pb-6 mt-6">
             <p className="text-[12px] text-white/30 text-center m-0 leading-relaxed max-w-4xl mx-auto">
-              <strong>Risk Disclaimer:</strong> This platform is for educational purposes only. We do not provide investment advice, stock tips, or trading recommendations. Trading and investing in the stock market involves significant risk and may result in the loss of your capital. Past performance is not indicative of future results. Please consult with a qualified financial advisor before making any investment decisions.
+              <strong>Risk Disclaimer:</strong> This platform is for educational purposes only. We do not provide investment advice, stock tips, or trading recommendations. Trading and investing in the stock market involves significant market risk. Past performance is not indicative of future results. Please consult with a qualified financial advisor before making any investment decisions.
             </p>
           </div>
 

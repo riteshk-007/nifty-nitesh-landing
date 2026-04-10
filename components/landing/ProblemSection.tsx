@@ -27,19 +27,19 @@ const problems: ProblemCard[] = [
     icon: <IoSad size={22} />,
     number: '03',
     title: 'Confidence Loss',
-    description: 'Taking losses personally and quitting the market way too early to ever see gains.',
+    description: 'Getting discouraged early and giving up the market way too early to ever see gains.',
   },
   {
     icon: <IoCloseCircle size={22} />,
     number: '04',
     title: 'No Risk Management',
-    description: 'No stop-loss plan. Emotional decisions under pressure that destroy your capital.',
+    description: 'No stop-loss plan. Emotional trading leads to poor decisions under pressure.',
   },
   {
     icon: <IoAlertCircle size={22} />,
     number: '05',
     title: 'Wrong Entry Timing',
-    description: 'Poor buy/sell timing leads to consistent negative outcomes and missed opportunities.',
+    description: 'Poor buy/sell timing leads to missed opportunities and lack of clarity.',
   },
 ]
 
@@ -94,7 +94,7 @@ export default function ProblemSection() {
               <span className="text-[#c8922a]">These Mistakes?</span>
             </h2>
             <p className="mt-4 text-[17px] text-gray-500 max-w-xl mx-auto leading-relaxed">
-              90% of beginners make these mistakes — and lose money because of them.
+              90% of beginners make these mistakes — and stay stuck and confused for years.
             </p>
           </div>
 

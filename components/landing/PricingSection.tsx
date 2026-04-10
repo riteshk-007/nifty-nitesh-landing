@@ -71,7 +71,7 @@ export default function PricingSection() {
                             <IoFlash size={12} /> Program Pricing
                         </div>
                         <h2 className="bebas text-[clamp(40px,6vw,68px)] leading-[0.93] text-white tracking-wide m-0">
-                            One Investment. <span className="gold-shine">Lifetime Edge.</span>
+                            One Program. <span className="gold-shine">Lifetime Skill.</span>
                         </h2>
                         <p className="mt-4 text-[16px] text-white/45 max-w-md mx-auto leading-relaxed">
                             Everything you need to go from confused beginner to confident trader — in 20 days.

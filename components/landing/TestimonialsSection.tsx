@@ -54,7 +54,7 @@ const testimonials: Testimonial[] = [
     verified: true,
   },
   {
-    quote: "After losing money in random trades, joined this program. Ab mujhe demand/supply zones, entry/exit points sab samajh aa gaya. Systematic approach ne sab badal diya! Thank you @NiftyNitesh 🙏",
+    quote: "After struggling with random and unstructured trades, joined this program. Ab mujhe demand/supply zones, entry/exit points sab samajh aa gaya. Systematic approach ne sab badal diya! Thank you @NiftyNitesh 🙏",
     author: "Amit Kumar",
     handle: "amit_investor",
     role: "Working Professional, Delhi",

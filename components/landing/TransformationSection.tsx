@@ -5,7 +5,7 @@ import { IoClose, IoCheckmark, IoFlash } from 'react-icons/io5'
 const beforeItems = [
   'Random YouTube videos without structure',
   'Blindly following WhatsApp market tips',
-  'Getting frustrated after early losses',
+  'Getting overwhelmed and losing confidence early on',
   'Treating the market like gambling',
   'Fear of technical analysis and charts',
   'No formal risk management system',

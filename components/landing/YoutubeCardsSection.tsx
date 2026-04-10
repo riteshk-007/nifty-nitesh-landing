@@ -11,7 +11,7 @@ const videos = [
     },
     {
         id: 'Q6q4O1zB5JI',
-        title: 'Options Trading Tips for Beginners',
+        title: 'Options Market Basics for Beginners',
         tag: 'Options Trading',
         url: 'https://youtu.be/Q6q4O1zB5JI?si=q7BCaALjXklHulaE',
     },
@@ -23,7 +23,7 @@ const videos = [
     },
     {
         id: '7q7q5HszqOo',
-        title: 'Intraday Trading Masterclass',
+        title: 'Intraday Market Analysis Masterclass',
         tag: 'Masterclass',
         url: 'https://youtu.be/7q7q5HszqOo?si=GFUP_Z4Q4eUuJT2S',
     },

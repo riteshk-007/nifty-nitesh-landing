@@ -14,7 +14,7 @@ const cards: ForWhomCard[] = [
   {
     icon: <IoPerson size={20} />,
     role: 'Working Professional',
-    description: 'You work 9-5 and want side income to achieve real financial freedom.',
+    description: 'You work 9-5 and want to build a valuable high-income skill for your future.',
     svg: '/working-professional.svg',
   },
   {
@@ -38,13 +38,13 @@ const cards: ForWhomCard[] = [
   {
     icon: <IoMan size={20} />,
     role: 'Retired Person',
-    description: 'You\'re retired and want consistent extra income along with your pension.',
+    description: 'You\'re retired and want to understand how to actively manage your wealth.',
     svg: '/retired-person.svg',
   },
   {
     icon: <IoWoman size={20} />,
     role: 'Freelancer',
-    description: 'Your income is irregular and you want it stable, growing, and invested wisely.',
+    description: 'Your cash flow is irregular and you want to learn how to invest wisely.',
     svg: '/freelancer.svg',
   },
 ]

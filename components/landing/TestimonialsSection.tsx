@@ -609,14 +609,14 @@ export default function TestimonialsSection() {
           <div className="ts-header">
             <div className="ts-eyebrow">
               <FaXTwitter />
-              <span>Student Results</span>
+              <span>Sample Testimonials</span>
             </div>
             <h2 className="ts-title">
               What Students Are Saying{" "}
               <span className="highlight">on X</span>
             </h2>
             <p className="ts-sub">
-              Real posts from 500+ students across India who transformed their trading journey
+              Sample experiences from some of our 500+ students across India who learned with us.
             </p>
           </div>
 
@@ -642,6 +642,11 @@ export default function TestimonialsSection() {
               <span className="strip-pill">💬 Hindi + English</span>
             </div>
             <button className="strip-cta">Enroll in Next Batch →</button>
+          </div>
+
+          {/* Disclaimer text */}
+          <div className="mt-8 text-center text-[#71767b] text-[12px] max-w-3xl mx-auto leading-relaxed">
+            *Note: These are sample testimonials. Individual learning outcomes may vary. This is an educational program focused on building trading skills, and does not guarantee profits or success in the stock market.
           </div>
         </div>
       </section>

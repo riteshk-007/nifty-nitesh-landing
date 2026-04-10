@@ -107,15 +107,20 @@ export default function Footer() {
             ))}
           </div>
 
+          {/* ── Disclaimer ── */}
+          <div className="border-t border-white/8 pt-6 pb-6 mt-6">
+            <p className="text-[12px] text-white/30 text-center m-0 leading-relaxed max-w-4xl mx-auto">
+              <strong>Risk Disclaimer:</strong> This platform is for educational purposes only. We do not provide investment advice, stock tips, or trading recommendations. Trading and investing in the stock market involves significant risk and may result in the loss of your capital. Past performance is not indicative of future results. Please consult with a qualified financial advisor before making any investment decisions.
+            </p>
+          </div>
+
           {/* ── Bottom bar ── */}
           <div className="border-t border-white/8 pt-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
             <p className="text-[12px] text-white/25 m-0">© 2025 Nifty Nitesh. All rights reserved.</p>
             <div className="flex items-center gap-5">
-              {['Privacy Policy', 'Terms', 'Disclaimer'].map((t, i) => (
-                <a key={i} href="#" className="text-[12px] text-white/25 hover:text-white/50 transition-colors duration-150 no-underline">
-                  {t}
-                </a>
-              ))}
+              <a href="/privacy-policy" className="text-[12px] text-white/25 hover:text-white/50 transition-colors duration-150 no-underline">Privacy Policy</a>
+              <a href="/terms-conditions" className="text-[12px] text-white/25 hover:text-white/50 transition-colors duration-150 no-underline">Terms & Conditions</a>
+              <a href="/refund-policy" className="text-[12px] text-white/25 hover:text-white/50 transition-colors duration-150 no-underline">Refund Policy</a>
             </div>
           </div>
 

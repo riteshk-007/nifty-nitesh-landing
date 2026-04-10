@@ -130,7 +130,7 @@ export default function HeroSection() {
                   className="group flex items-center justify-center gap-2 bg-[#22c55e] hover:bg-[#16a34a] active:scale-[0.98] text-white font-bold text-[15px] px-6 py-3.5 rounded-xl transition-all duration-200 no-underline hover:shadow-[0_8px_24px_rgba(34,197,94,0.35)]"
                 >
                   <IoLogoWhatsapp size={19} />
-                  Apply Now
+                  Enroll in Paid Program
                   <span className="bg-white/20 text-[12px] font-extrabold px-2 py-0.5 rounded-lg">₹15,000</span>
                   <HiArrowRight size={15} className="group-hover:translate-x-0.5 transition-transform duration-150" />
                 </a>

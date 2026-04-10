@@ -120,9 +120,9 @@ export default function AboutSection() {
               <div className="w-11 h-11 rounded-xl bg-[#c8922a]/10 border border-[#c8922a]/25 flex items-center justify-center text-[#c8922a] mb-5">
                 <IoEye size={22} />
               </div>
-              <h3 className="bebas text-[24px] text-black tracking-wide mb-3">Our Mission</h3>
+              <h3 className="bebas text-[24px] text-black tracking-wide mb-3">Our Mission & Framework</h3>
               <p className="text-[14px] text-gray-500 leading-relaxed m-0">
-                To teach Indian traders how to build a repeatable edge using real concepts — not signals, shortcuts, or shiny apps. We simplify complex trading ideas into actionable frameworks that anyone can follow.
+                To teach Indian traders how to build a repeatable edge using real concepts — not signals or shortcuts. We simplify complex trading ideas into actionable systems like our unique <strong>Mahabharat Framework</strong> for trade scoring, making institutional price action accessible to everyday traders.
               </p>
               <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-gradient-to-r from-[#c8922a] to-[#f0b429] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-b-2xl" />
             </div>
@@ -153,10 +153,14 @@ export default function AboutSection() {
               <IoPeople size={12} /> The Mentor
             </div>
             <h2 className="bebas text-[clamp(38px,5vw,60px)] leading-[0.95] text-black tracking-wide m-0">
-              Meet <span className="text-[#c8922a]">Nifty Nitesh</span>
+              Meet <span className="text-[#c8922a]">Nitesh Kumar</span> (Nifty Nitesh)
             </h2>
-            <p className="mt-3 text-[14px] text-gray-400 uppercase tracking-widest font-semibold">
+            <p className="mt-3 text-[14px] text-gray-400 uppercase tracking-widest font-semibold flex items-center justify-center gap-2">
               Founder · Full-Time Trader · Mentor
+              <span className="text-gray-300">|</span>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-[#0a66c2] hover:underline flex items-center gap-1">
+                LinkedIn Profile
+              </a>
             </p>
           </div>
 

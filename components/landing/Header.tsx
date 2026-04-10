@@ -60,6 +60,9 @@ export default function Header() {
             : 'bg-black'
           }`}
       >
+        <div className="w-full bg-black text-[#c8922a] text-[10px] sm:text-[11px] py-1 text-center font-medium border-b border-white/5 tracking-wide">
+          This is for educational purposes only. We do not provide investment advice. Trading involves risk.
+        </div>
         {/* Gold accent line — visible when scrolled */}
         <div className={`h-[2px] bg-gradient-to-r from-transparent via-[#c8922a] to-transparent transition-opacity duration-300 ${scrolled ? 'opacity-50' : 'opacity-0'}`} />
 
@@ -86,11 +89,11 @@ export default function Header() {
             href="https://wa.me/917827433875"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Apply Now on WhatsApp"
+            aria-label="Enroll Now on WhatsApp"
             className="wa-sheen relative overflow-hidden flex items-center gap-2 bg-[#22c55e] hover:bg-[#16a34a] active:scale-95 text-white font-bold text-[13px] sm:text-[14px] px-4 sm:px-5 py-2 sm:py-2.5 rounded-xl transition-all duration-200 no-underline hover:-translate-y-px hover:shadow-[0_6px_20px_rgba(34,197,94,0.35)] flex-shrink-0"
           >
             <IoLogoWhatsapp size={17} />
-            <span>Apply Now</span>
+            <span>Enroll Now (Paid)</span>
           </a>
 
         </div>

@@ -5,35 +5,35 @@ import { IoBook, IoTrendingUp, IoShieldCheckmark, IoTrophy, IoCalendar, IoCheckm
 const phases = [
   {
     phase: 'Phase 1',
-    title: 'Foundation Building',
+    title: 'Foundation (Basics)',
     duration: 'Days 1–5',
     description: 'Understand the basics of stock market and build rock-solid confidence from scratch.',
     icon: <IoBook size={20} />,
-    topics: ['What is Stock Market?', 'How Indian Market Works', 'Types of Investments', 'Risk & Reward Understanding'],
+    topics: ['Candle Formation (Basic + Strong Candles)', 'Demand Zone & Supply Zone', 'Leg-In Base Leg-Out (Structure Understanding)', 'Entry & Stop Loss Basics'],
   },
   {
     phase: 'Phase 2',
-    title: 'Technical Analysis',
+    title: 'Core Technicals (Price Action Power)',
     duration: 'Days 6–10',
     description: 'Learn to read charts, identify patterns and find high-probability entry points.',
     icon: <IoTrendingUp size={20} />,
-    topics: ['Chart Reading Basics', 'Candlestick Patterns', 'Support & Resistance', 'Moving Averages & Indicators'],
+    topics: ['Exceptional Marking & Wick to Wick', 'Candle Logic + Price Action + Gap', 'Origin of Buying/Selling + Trend', 'Multiple Time Frame Analysis'],
   },
   {
     phase: 'Phase 3',
-    title: 'Risk Management',
+    title: 'Strategy & Risk (Pro Level Thinking)',
     duration: 'Days 11–15',
     description: 'Master money management and risk control techniques used by professional traders.',
     icon: <IoShieldCheckmark size={20} />,
-    topics: ['Position Sizing', 'Stop Loss Techniques', 'Portfolio Management', 'Psychology of Trading'],
+    topics: ['Trade Score & Target Planning', 'Entry Types & Risk Per Trade', 'Aggressive vs Conservative Trading + EMA + Crossovers', 'Advanced Trend + EMA Line'],
   },
   {
     phase: 'Phase 4',
-    title: 'Live Trading',
+    title: 'Mastery (Real Market Application)',
     duration: 'Days 16–20',
     description: 'Apply everything in the real market and gain hands-on practical experience.',
     icon: <IoTrophy size={20} />,
-    topics: ['Live Market Analysis', 'Entry & Exit Strategies', 'Performance Tracking', 'Final Project & Review'],
+    topics: ['Confirmation Entry', 'Sector Analysis', 'Gap Theory + Market Traps', 'Putting It All Together (Final System)'],
   },
 ]
 

@@ -25,14 +25,14 @@ const bebasNeue = Bebas_Neue({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://hero.niftynitesh.com'),
+  metadataBase: new URL('https://niftynitesh.com'),
   title: 'Nifty Nitesh - Stock Market Training | 20-Day Live Program',
   description: 'Learn stock market from basics with Nifty Nitesh. 20-day live online training program. Complete structured education. Limited seats available.',
   keywords: ['Nifty Nitesh', 'Stock Market Training', '20-Day Live Program', 'Stock Market for Beginners', 'Trading Course', 'Investing Masterclass'],
   openGraph: {
     title: 'Nifty Nitesh - Stock Market Training | 20-Day Live Program',
     description: 'Learn stock market from basics with Nifty Nitesh. 20-day live online training program. Complete structured education.',
-    url: 'https://hero.niftynitesh.com',
+    url: 'https://niftynitesh.com',
     siteName: 'Nifty Nitesh',
     locale: 'en_IN',
     type: 'website',
@@ -78,6 +78,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${dmSans.variable} ${dmSerifDisplay.variable} ${bebasNeue.variable} scroll-smooth`}>
       <body className="font-dm-sans antialiased">
+        <script dangerouslySetInnerHTML={{ __html: `fbq('track', 'ViewContent');` }} />
         {children}
         <Analytics />
       </body>

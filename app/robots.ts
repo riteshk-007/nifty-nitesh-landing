@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://hero.niftynitesh.com/sitemap.xml',
+    sitemap: 'https://niftynitesh.com/sitemap.xml',
   }
 }
